@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: brandon-grotesque;
+    box-sizing: border-box;
+    height: 100%;
+    
+    
+}
+ .heading:hover{
+    color: grey;
+
+}
+.logo-img{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.navbar_contents{
+    padding-left: 18%;
+
+}
+/* .section2.img {
+    background-image: url("/11.jpg");
+    background-size: cover;
+    overflow-y: scroll;
+} */
+.section2 img{
+    width: 60%;
+    margin: 10% 0 ;
+    padding: 10% 0 0 10%;
+    float: right;
+}
+.section2 {
+    padding: 0% 0  
+}
+
+.section3{
+    padding-bottom:-10% ;
+}
+.section3 img{
+    /*width: 300px;
+    height: 250px; */
+    width: 19rem;
+    object-fit:fill;
+}
+.section3-outside{
+   padding: 12% 0;
+}
+.f-cons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    
+}
+.f-cons i{
+    padding:4px;
+    color: black;
+    
+}
+.f-cons i:hover{
+    color:grey;
+}
+.f-cons:hover{
+    color: grey;
+}
+.footer-last1{
+    padding: 3% 15% 15% ;
+    letter-spacing: 2px;
+
+    word-spacing: 3px;
+    line-height: 29px;
+}
+.footer-last1 a{
+    color: black;
+    
+}
+.footer-last1 a:hover{
+    color: grey;
+    
+}
+.background-img{
+    background-image: url("/assets/img/11.jpg");
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+
+   
+
+}
+
+.single-img{
+    padding: 20% 20% 10%;
+}
+
+/* navbar design */
+
+.dropdown-menu {
+    
+    background-color: black;
+    
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    color: grey;
+    background-color: black;
+}
+.dropdown-menu:hover{
+    background-color: black;
+}
+.dropdown .menu-text:hover{
+    color:white;
+}
+/* navbar design */
+/* contact section starts */
+
+.contact-sec-2 {
+    background-image: url("/assets/img/pix2.jpg");
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+.contact-sec-2 h1 {
+    
+    font-family: brandon-grotesque;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2rem;
+    letter-spacing: .29em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: white;
+    padding: 35% 0;
+}
+
+
+.contact-sec-3{
+    
+    word-spacing: 3px;
+    
+    color: #1d1d1d;
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: .29em;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10% 10% 0 10%;
+    
+}
+.red { 
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    text-transform: lowercase;
+    color:red;
+        
+    
+   
+}
+/* contact  section ends */
+
+/* feature filims starts */
+.feature{
+    height: 100%;
+    background-image: url("/assets/img/v228_84_pub.pub16_CROP.133.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.feature-text{
+    font-family: brandon-grotesque;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 51px;
+    letter-spacing: .29em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: white;
+    padding: 25% 0 ;
+}
+
+.movies img{
+    width: 100%;
+    height: 50%;
+}
+.feature-sec-2{
+    padding: 10% 5%;
+}
+/* feature filims  ends*/
+
+/*  theartical section1 starts  */
+
+.theartical-section1{
+
+    background-image: url("/assets/img/d100_7.pub16.102.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+
+}
+.theratical-discription{
+    font-family: futura-pt;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    letter-spacing: 0em;
+    line-height: 1.7em;
+    text-transform: none;
+    color: rgba(29,29,29,.7);
+    padding: 4% 4% 0 4%;
+}
+.theartical-text{
+    font-family: brandon-grotesque;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: white;
+    padding: 25% 0 ;
+    text-align: center;
+}
+/*  theartical section1 ends  */
+
